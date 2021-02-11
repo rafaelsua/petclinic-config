@@ -15,7 +15,7 @@ spec:
         app: quarkus-petclinic
     spec:
       containers:
-        - image: quay.io/dsanchor/quarkus-petclinic:1.0.0
+        - image: quay.io/dsanchor/quarkus-petclinic:1.0.1
           imagePullPolicy: Always
           name: quarkus-petclinic
           ports:
